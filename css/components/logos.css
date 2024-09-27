@@ -1,0 +1,28 @@
+.tw-grid img {
+    max-width: 40px; 
+    height: auto; 
+    margin: 10px; 
+    object-fit: contain; 
+    overflow: hidden; 
+}
+
+.social-media-logos {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 20px; 
+}
+
+.social-media-logos img {
+    width: 50px; 
+    height: auto;
+    transition: transform 0.3s ease; 
+}
+
+.social-media-logos img:hover {
+    transform: scale(1.1); 
+}
+
+/* .logo img {
+    width: 200px;
+} */
